@@ -1,0 +1,24 @@
+name: self_hosted_runner
+
+on: push
+
+jobs:
+  test: 
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      
+      - name: NPM setup
+        runs: npm install
+
+      - name: Check NPM
+        runs: npm run check
+
+      
