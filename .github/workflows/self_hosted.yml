@@ -16,9 +16,9 @@ jobs:
           node-version: 22
       
       - name: NPM setup
-        runs: npm install
+        run: npm install
 
       - name: Check NPM
-        runs: npm run check
+        run: npm run check
 
       
