@@ -39,4 +39,4 @@ jobs:
         uses: actions/download-artifact@v4
       
       - name: Display Test Result
-        run: cat reports/junit.xml
+        run: cat test-result/junit.xml
