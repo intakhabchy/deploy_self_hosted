@@ -30,4 +30,11 @@ jobs:
           name: test-result
           path: reports/junit.xml
 
+  deploy:
+    runs-on: self-hosted
+    needs: test
+
+    steps:
+      - name: Download Test Result
+        uses: actions/download-artifact@v4
       
