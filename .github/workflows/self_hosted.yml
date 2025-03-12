@@ -38,3 +38,5 @@ jobs:
       - name: Download Test Result
         uses: actions/download-artifact@v4
       
+      - name: Display Test Result
+        run: cat reports/junit.xml
