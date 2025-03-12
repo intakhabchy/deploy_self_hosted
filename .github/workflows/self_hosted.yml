@@ -31,7 +31,7 @@ jobs:
           path: reports/junit.xml
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: test
 
     steps:

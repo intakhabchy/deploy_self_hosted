@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 21,
+  "agentName": "intakhab",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus13.actions.githubusercontent.com/UivcEboDwF24xV30iJpsuxRQ2CJ7O85T98DPApkBXp3sncmwNJ/",
+  "gitHubUrl": "https://github.com/intakhabchy/deploy_self_hosted",
+  "workFolder": "_work"
+}

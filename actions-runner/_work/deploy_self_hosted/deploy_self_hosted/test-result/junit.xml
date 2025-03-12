@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.032" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-03-12T19:09:52" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Server Tests" timestamp="2025-03-12T19:09:52" tests="0" file="/home/runner/work/deploy_self_hosted/deploy_self_hosted/test/server.test.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="GET /" timestamp="2025-03-12T19:09:52" tests="1" file="/home/runner/work/deploy_self_hosted/deploy_self_hosted/test/server.test.js" time="0.020" failures="0">
+    <testcase name="Server Tests GET / should return HTML file" time="0.017" classname="should return HTML file">
+    </testcase>
+  </testsuite>
+  <testsuite name="GET /api" timestamp="2025-03-12T19:09:52" tests="1" file="/home/runner/work/deploy_self_hosted/deploy_self_hosted/test/server.test.js" time="0.005" failures="0">
+    <testcase name="Server Tests GET /api should return Hello World message" time="0.005" classname="should return Hello World message">
+    </testcase>
+  </testsuite>
+</testsuites>

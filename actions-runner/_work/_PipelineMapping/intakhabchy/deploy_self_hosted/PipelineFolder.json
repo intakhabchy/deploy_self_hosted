@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "intakhabchy/deploy_self_hosted",
+  "pipelineDirectory": "deploy_self_hosted",
+  "workspaceDirectory": "deploy_self_hosted\\deploy_self_hosted",
+  "repositories": {
+    "intakhabchy/deploy_self_hosted": {
+      "repositoryPath": "deploy_self_hosted\\deploy_self_hosted",
+      "lastRunOn": "03/13/2025 01:52:33 +06:00"
+    }
+  },
+  "lastRunOn": "03/13/2025 01:52:33 +06:00"
+}
